@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html">
+  <head>
+    <link rel="icon" href="imgs/icon.jpeg">
+    <link rel="stylesheet" href="css/https://fonts.google.com/specimen/Nerko+One">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Quiz</title>
+  </head>
+
+  <body>
+    <!---Menuzinho-->
+    <div class="containerHeader">
+      <header>
+        <nav id="menu">
+          <ul>
+            <li class="pagina"><a href="index.html">A Tabela Periódica</a></li>
+            <li class="pagina"><a href="divisao.html">Divisão da Tabela</a></li>
+            <li class="pagina"><a href="famiperi.html">Familias e Períodos</a></li>
+            <li class="pagina"><a href="propriedades.html">Propriedades</a></li>
+            <li class="pagina"><a href="quiz.html">Quiz</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <h1>Teste seus conhecimentos!</h1>
+    <p>Esse é um simples quiz que contem 10 perguntas sobre a matéria que acabamos de resumir pra você, então vamos, tente aí!</p>
+    <div id="container" class="container arrumar">
+      <!--<div id="container-pergunta" class="esconder">-->
+        <h2 id="cabecalho_pergunta"></h2>
+        <div id="pergunta" class="botoes-perguntas">
+          <label class="botoes"><input type="radio" name="opcao" value="1" /> <span id="op1"></span></label>
+          <label class="botoes"><input type="radio" name="opcao" value="2" /> <span id="op2"></span></label>
+          <label class="botoes"><input type="radio" name="opcao" value="3" /> <span id="op3"></span></label>
+          <label class="botoes"><input type="radio" name="opcao" value="4" /> <span id="op4"></span></label>
+          <button type="submit"id="btnproximo" class="botao-proximo botoes">Próximo</button>
+        <!--</div>-->
+      </div>
+    </div>
+    <div class="result" id="result">
+      <h2>Resultado</h2>
+        <p id="coloarResultado"></p>
+        <p class="botoes lado" ><a href="quiz.html">Tente novamente</a></p>
+    </div>
+  </body>
+  <script src="js/quiz.js"></script>
+</html>

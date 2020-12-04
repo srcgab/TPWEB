@@ -1,0 +1,50 @@
+ul {
+  display: block;
+  text-align: right;
+  margin: 0px;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+}
+#esp {
+  width: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 0px 0px 50px;
+}
+
+#menu a{
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  font-size: 22px;
+  color: yellowgreen;
+  font-family: "titulo",cursive;
+}
+#menu a:hover{
+  color:#202d05;
+}
+
+.pagina:hover{
+  color:green;
+}
+.pagina:link {
+  color: black;
+}
+.pagina:active{
+  color: #00897b;
+}
+.pagina{
+  text-decoration: none;
+  color:white;
+}
+header{
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}

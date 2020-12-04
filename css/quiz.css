@@ -1,0 +1,108 @@
+:root{
+  --cores-neutro: 200;
+}
+
+body{
+  --cores: var(--cores-neutro);
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0cff1421;
+}
+
+
+.container{
+  width: 800px;
+  height: 450px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px; /*eixo x, eixo y, desfoque, cima, "tamanho"*/
+}
+
+.botoes-perguntas {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /*define o tamnaho das colunas da grade*/
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.botoes{
+  --cores: var(--cores-neutro);
+  background-color: hsl(var(--cores), 100%, 50%);
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 2em;
+
+}
+.botoes:hover{
+  border-color: black;
+}
+
+.botao-proximo {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.resultado{
+	height: 100px;
+	text-align: center;
+  font-size: 75px;
+}
+.arrumar{
+  position: relative;
+  top: 4em;
+  height: 335px;
+}
+p{
+  position: relative; 
+  top: 4em;
+}
+
+h1{
+  font-family: 'Nerko One';
+  position: relative;
+  top:2em;
+}
+
+.acertou{
+  color: green;
+}
+.errou{
+  color: red;
+}
+.result{
+  opacity: 0;
+}
+.esconde{
+  opacity: 0;
+}
+.aparecer{
+  opacity: 1;
+  position: relative;
+  top: -13em;
+  left: 3em;
+}
+.lado{
+    top: 3.5em;
+    position: relative;
+    left: -34em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+}
+.lado a{
+  color: white;
+  text-decoration: none;
+}

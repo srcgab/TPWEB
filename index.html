@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/icon.jpeg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="styleshe" href="https://fonts.googleapis.com/css2?family=Castoro&display=swap">
+    <title>Tabela Periódica</title>
+  </head>
+
+  <body>
+    <!---Menu e Cabeçalho-->
+    <div class="containerHeader">
+      <header>
+        <nav id="menu">
+          <ul>
+            <li class="pagina"><a href="index.html">A Tabela Periódica</a></li>
+            <li class="pagina"><a href="divisao.html">Divisão da Tabela</a></li>
+            <li class="pagina"><a href="famiperi.html">Familias e Períodos</a></li>
+            <li class="pagina"><a href="propriedades.html">Propriedades</a></li>
+            <li class="pagina"><a href="quiz.html">Quiz</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="divTitulo">
+      <h1>CONCEITOS GERAIS</h1>
+    </div>
+    <h2 class="Castoro">O que é a tabela periódica?</h2>
+      <p> 
+        <strong>Dimitri Ivanovich Mendeleev</strong> (1834-1907), na Rússia, e <strong>Lothar Meyer</strong> (1830-1895),
+        na Alemanha, criaram - independentemente e praticamente ao mesmo tempo - tabelas
+        periódicas muito parecidas. Pouco tempo depois, essas tabelas originariam as que são
+        usadas atualmente.A tabela periódica é, resumidamente, a tabela que exibe e detalha os elementos químicos existentes hoje, sejam eles encontrados na natureza, sejam eles sintéticos.
+        Dentro da tabela, é exibido diversas informações acerca dos elementos, tais como o número atômico, massa atômica e, em alguns casos, distribuição eletônica. A organização desses elementos na tabela se dá em ordem crescente de número atômico.
+      </p>
+      <p>
+        Além disso, a tabela é dividida entre elementos metálicos e ametálicos, contando também com suas subdivisões, dadas por elementos halógenos, calcógenos, alcalinos, alcalino-terrosos, lantanídeos, actinídeos e metais de transição.
+        Dentro de cada cédula dos elementos, o número atômico é encontrado logo na parte superior esquerda da cédula. No meio, encontra-se a sigla do elemento. Abaixo da sigla, está a massa atômica do elemento.
+      </p>
+      <div class="divTitulo">
+        <h1>TABELA PERIÓDICA</h1>
+      </div>
+
+    <!---Tabelinha da hora-->
+    <table id="tb1">
+      <tbody>
+        <tr>
+          <td><img src="imgs/hid.png" onclick="modalDinamico('HIDROGÊNIO (H)','1s1','1','1')"class="hid"></td>
+          <td><img src="imgs/nad.png" class="nada" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/he.png"onclick="modalDinamico('HÉLIO','1s2','2','4')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/li.png" class="hid" onclick="modalDinamico('LÍTIO','1s2 2s1','3','6,9')"></td>
+          <td><img src="imgs/be.png"onclick="modalDinamico('BELÍRIO (Be)','1s2 2s2','4','9')"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nnn.png"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/b.png" onclick="modalDinamico('BORO (B)','1s2 2s2 2p1','5','10,5')"></td>
+          <td><img src="imgs/c.png" onclick="modalDinamico('CARBONO (C)','1s2 2s2 2p2','6','12')"></td>
+          <td><img src="imgs/n.png" onclick="modalDinamico('NITROGÊNIO (N)','1s2 2s2 2p3','104','14')"></td>
+          <td><img src="imgs/o.png" onclick="modalDinamico('OXIGÊNIO (O)','1s2 2s2 2p4','8','16')"></td>
+          <td><img src="imgs/f.png" onclick="modalDinamico('FLÚOR (F)','1s2 2s2 2p5','9','19')"></td>
+          <td><img src="imgs/ne.png"onclick="modalDinamico('NEÔNIO (Ne)','1s2 2s2 2p6','10','20')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/na.png" onclick="modalDinamico('SÓDIO (Na)','1s2 2s2 2p6 3s1','11','20')"class="hid"></td>
+          <td><img src="imgs/mg.png"onclick="modalDinamico('MAGNÉSIO (Mg)','1s2 2s2 2p6 3s2','12','24')"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/al.png"onclick="modalDinamico('ALUMÍNIO (Al)','1s2 2s2 2p6 3s2 3p1','13','26,9')"></td>
+          <td><img src="imgs/si.png"onclick="modalDinamico('SILÍCIO (Si)','1s2 2s2 2p6 3s2 3p2','14','28')"></td>
+          <td><img src="imgs/p.png" onclick="modalDinamico('FÓSFORO (P)','1s2 2s2 2p6 3s2 3p3','15','30,9')"></td>
+          <td><img src="imgs/s.png" onclick="modalDinamico('ENXOFRE (S)','1s2 2s2 2p6 3s2 3p4','16','32')"></td>
+          <td><img src="imgs/cl.png"onclick="modalDinamico('CLORO (Cl)','1s2 2s2 2p6 3s2 3p5','17','35,4')"></td>
+          <td><img src="imgs/ar.png"onclick="modalDinamico('ARGÔNIO (Ar)','1s2 2s2 2p6 3s2 3p6','18','39,9')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/K.png" onclick="modalDinamico('POTÁSSIO (K)','1s2 2s2 2p6 3s2 3p6 4s1','19','39')" class="hid"></td>
+          <td><img src="imgs/ca.png"onclick="modalDinamico('CÁLCIO (Ca)','1s2 2s2 2p6 3s2 3p6 4s2','20','40')"></td>
+          <td><img src="imgs/sc.png"onclick="modalDinamico('ESCÂNDIO (Sc)','1s2 2s2 2p6 3s2 3p6 3d1 4s2','21','45')"></td>
+          <td><img src="imgs/ti.png"onclick="modalDinamico('TITÂNIO (Ti)','1s2 2s2 2p6 3s2 3p6 3d2 4s2','22','47,8')"></td>
+          <td><img src="imgs/v.png" onclick="modalDinamico('VANÁDIO (V)','1s2 2s2 2p6 3s2 3p6 3d3 4s2','23','50,9')"></td>
+          <td><img src="imgs/cr.png"onclick="modalDinamico('CROMO (Cr)','1s2 2s2 2p6 3s2 3p6 3d5 4s1','24','51,9')"></td>
+          <td><img src="imgs/mn.png"onclick="modalDinamico('MANGANÊS (Mn)','1s2 2s2 2p6 3s2 3p6 3d5 4s2','25','54,9')"></td>
+          <td><img src="imgs/fe.png"onclick="modalDinamico('FERRO (Fe)','1s2 2s2 2p6 3s2 3p6 3d6 4s2','26','56,8')"></td>
+          <td><img src="imgs/co.png"onclick="modalDinamico('COBALTO (Co)','1s2 2s2 2p6 3s2 3p6 3d7 4s2','27','58,9')"></td>
+          <td><img src="imgs/ni.png"onclick="modalDinamico('NÍQUEL (NI)','1s2 2s2 2p6 3s2 3p6 3d8 4s2','28','58,6')"></td>
+          <td><img src="imgs/cu.png"onclick="modalDinamico('COBRE (Cu)','1s2 2s2 2p6 3s2 3p6 3d10 4s1','29','63,5')"></td>
+          <td><img src="imgs/zn.png"onclick="modalDinamico('ZINCO (Zn)','1s2 2s2 2p6 3s2 3p6 3d10 4s2','30','65')"></td>
+          <td><img src="imgs/ga.png"onclick="modalDinamico('GÁLIO (Ga)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1','31','69,7')"></td>
+          <td><img src="imgs/ge.png"onclick="modalDinamico('GERMÂNIO (Ge)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2','32','72,6')"></td>
+          <td><img src="imgs/as.png"onclick="modalDinamico('ARSÊNIO (As)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3','33','74,9')"></td>
+          <td><img src="imgs/se.png"onclick="modalDinamico('SELÊNIO (Se)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4','34','79')"></td>
+          <td><img src="imgs/br.png"onclick="modalDinamico('BRÔMIO (Br)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5','35','80')"></td>
+          <td><img src="imgs/kr.png"onclick="modalDinamico('CRIPTÔNIO (Kr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6','36','84')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/rb.png" onclick="modalDinamico('RUBÍDIO (Rb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1','37','85,5')"class="hid"></td>
+          <td><img src="imgs/sr.png"onclick="modalDinamico('ESTRÔNCIO (Sr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2','38','88')"></td>
+          <td><img src="imgs/y.png" onclick="modalDinamico('ÍTRIO (Y)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d1 5s2','39','89')"></td>
+          <td><img src="imgs/zr.png"onclick="modalDinamico('ZICRÔNIO (Zr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d2 5s2','40','91')"></td>
+          <td><img src="imgs/nb.png"onclick="modalDinamico('NÓBIO (Nb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d3 5s2','41','93')"></td>
+          <td><img src="imgs/mo.png"onclick="modalDinamico('MOLIBDÊNIO (Mo)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d4 5s2','42','96')"></td>
+          <td><img src="imgs/tc.png"onclick="modalDinamico('TECNÉCIO (Tc)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s2','43','97')"></td>
+          <td><img src="imgs/ru.png"onclick="modalDinamico('RUTÊNIO (Ru)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2','44','101')"></td>
+          <td><img src="imgs/rh.png"onclick="modalDinamico('RÓDIO (Rh)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s2','45','103')"></td>
+          <td><img src="imgs/pd.png"onclick="modalDinamico('PALÁDIO (Pd)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d8 5s2','46','106')"></td>
+          <td><img src="imgs/ag.png"onclick="modalDinamico('PRATA (Ag)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d9 5s2','47','108')"></td>
+          <td><img src="imgs/cd.png"onclick="modalDinamico('CÁDMIO (Cd)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s1','48','112')"></td>
+          <td><img src="imgs/in.png"onclick="modalDinamico('ÍNDIO (In)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2','49','115')"></td>
+          <td><img src="imgs/sn.png"onclick="modalDinamico('ESTANHO (Sn)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p2','50','119')"></td>
+          <td><img src="imgs/sb.png"onclick="modalDinamico('ANTIMÔNIO (Sn)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p3','51','122')"></td>
+          <td><img src="imgs/te.png"onclick="modalDinamico('ANTIMÔNIO (Sb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4','52','128')"></td>
+          <td><img src="imgs/i.png"onclick="modalDinamico('IODO (I)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p5','53','127')"></td>
+          <td><img src="imgs/xe.png"onclick="modalDinamico('XENÔNIO (Xe)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6','54','131')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/cs.png"onclick="modalDinamico('CÉSIO (Cs)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1','55','133')" class="hid"></td>
+          <td><img src="imgs/ba.png"onclick="modalDinamico('BÁRIO (Ba)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2','56','137')"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/hf.png"onclick="modalDinamico('HÁFINO (Hf)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d2 6s2','72','178')"></td>
+          <td><img src="imgs/ta.png"onclick="modalDinamico('TÂNTALO (Ta)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d3 6s2','73','181')"></td>
+          <td><img src="imgs/w.png" onclick="modalDinamico('TUNGSTÊNIO (W)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d4 6s2','74','184')"></td>
+          <td><img src="imgs/re.png"onclick="modalDinamico('RÊNIO (Re)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d5 6s2','75','186')"></td>
+          <td><img src="imgs/os.png"onclick="modalDinamico('ÓSMIO (Os)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d6 6s2','76','190')"></td>
+          <td><img src="imgs/ir.png"onclick="modalDinamico('IRÍDIO (Ir)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d7 6s2','77','192')"></td>
+          <td><img src="imgs/pt.png"onclick="modalDinamico('PLATINA (Pt)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d8 6s2','78','195')"></td>
+          <td><img src="imgs/au.png"onclick="modalDinamico('OURO (Au)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s1','79','197')"></td>
+          <td><img src="imgs/hg.png"onclick="modalDinamico('MERCÚRIO (Hg)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2','80','201')"></td>
+          <td><img src="imgs/tl.png"onclick="modalDinamico('TÁLIO (Tl)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p1','81','204')"></td>
+          <td><img src="imgs/pb.png"onclick="modalDinamico('CHUMBO (Pb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p2','82','207')"></td>
+          <td><img src="imgs/bi.png"onclick="modalDinamico('BISMUTO (Bi)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p3','83','209')"></td>
+          <td><img src="imgs/po.png"onclick="modalDinamico('POLÔNIO (Po)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p4','84','210')"></td>
+          <td><img src="imgs/at.png"onclick="modalDinamico('ÁSTATO (At)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p5','85','210')"></td>
+          <td><img src="imgs/rn.png"onclick="modalDinamico('RÁDON (Rn)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6','86','222')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/fr.png"onclick="modalDinamico('FRÂNCIO (Fr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s1','87','223')"></td>
+          <td><img src="imgs/ra.png"onclick="modalDinamico('RÁDIO (Ra)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s2','88','226')"></td>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/rf.png"onclick="modalDinamico('RUTHERFÓRDIO (Rf)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d2 7s2','104','261')"></td>
+          <td><img src="imgs/db.png"onclick="modalDinamico(' DÚBNIO (Db)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d3 7s2','105','262')"></td>
+          <td><img src="imgs/sg.png"onclick="modalDinamico('SEABÓRGIO (Sg)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d4 7s2','106','263')"></td>
+          <td><img src="imgs/bh.png"onclick="modalDinamico('BÓHRIO (Bh)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d5 7s2','107','262')"></td>
+          <td><img src="imgs/hs.png"onclick="modalDinamico('HÁSSIO (Hs)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d6 7s2','108','265')"></td>
+          <td><img src="imgs/mt.png"onclick="modalDinamico('MEITNÉRIO (Mt)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d7 7s2','109','266')"></td>
+          <td><img src="imgs/ds.png"onclick="modalDinamico('DARMSTÁCIO (Ds)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d9 7s1','110','269')"></td>
+          <td><img src="imgs/rg.png"onclick="modalDinamico('ROENTGÉIO (Rg)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s1','111','272')"></td>
+          <td><img src="imgs/cn.png"onclick="modalDinamico('COPERNÍCIO (Cn)','PA','112','285')"></td>
+          <td><img src="imgs/nh.png"onclick="modalDinamico('NIPÔNIO (Nh)','PA','113','286')"></td>
+          <td><img src="imgs/fl.png"onclick="modalDinamico('FLERÓVIO (Fl)','PA','114','289')"></td>
+          <td><img src="imgs/mc.png"onclick="modalDinamico('MOSCÓVIO (Mc)','PA','115','288')"></td>
+          <td><img src="imgs/lv.png"onclick="modalDinamico('LIVERMÓRIO (Lv)','PA','116','292')"></td>
+          <td><img src="imgs/ts.png"onclick="modalDinamico('TENESSO (Ts)','PA','117','117')"></td>
+          <td><img src="imgs/og.png"onclick="modalDinamico('OGANÉSSON (Og)','PA','118','294')"></td>
+        </tr>
+      </tbody>
+    </table>
+    <table id="ti">
+      <tbody>
+        <tr>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/la.png"onclick="modalDinamico('LATÂNIO (La)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f1 5s2 5p6 6s2','57','139')"></td>
+          <td><img src="imgs/ce.png"onclick="modalDinamico('CERIO (Ce)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f2 5s2 5p6 6s2','58','140')"></td>
+          <td><img src="imgs/pr.png"onclick="modalDinamico('PRASEODÍMEO (Pr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3 5s2 5p6 6s2','59','141')"></td>
+          <td><img src="imgs/nd.png"onclick="modalDinamico('NEODÍMEO (Nd)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f4 5s2 5p6 6s2','60','144')"></td>
+          <td><img src="imgs/pm.png"onclick="modalDinamico('PROMÉCIO (Pm)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f5 5s2 5p6 6s2','61','147')"></td>
+          <td><img src="imgs/sm.png"onclick="modalDinamico('SAMÁRIO (Sm)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f6 5s2 5p6 6s2','62','150')"></td>
+          <td><img src="imgs/eu.png"onclick="modalDinamico('EURÓPIO (Eu)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 6s2','63','152')"></td>
+          <td><img src="imgs/gd.png"onclick="modalDinamico('GADOLINO (Gd)','1s2, 2s2, 2p6, 3s2, 3p6, 4s2, 3d10, 4p6, 5s2, 4d10, 5p6, 6s2, 4f7, 5d1 ','64','157')"></td>
+          <td><img src="imgs/tb.png"onclick="modalDinamico('TÉRBIO (Tb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f9 5s2 5p6 6s2','65','159')"></td>
+          <td><img src="imgs/dy.png"onclick="modalDinamico('DIPRÓSIO (Dy)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f10 5s2 5p6 6s2','66','162')"></td>
+          <td><img src="imgs/ho.png"onclick="modalDinamico('HÓLMIO (Ho)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f11 5s2 5p6 6s2','67','165')"></td>
+          <td><img src="imgs/er.png"onclick="modalDinamico('ÉRBIO (Er)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f12 5s2 5p6 6s2','68','167')"></td>
+          <td><img src="imgs/tm.png"onclick="modalDinamico('TÚLIO (Tm)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f13 5s2 5p6 6s2','69','169')"></td>
+          <td><img src="imgs/yb.png"onclick="modalDinamico('ITÉRBIO (Yb)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 6s2','70','173')"></td>
+          <td><img src="imgs/lu.png"onclick="modalDinamico('LUTÉCIO (Lu)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d1 6s2','71','175')"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/nad.png" class="nada"></td>
+          <td><img src="imgs/ac.png" onclick="modalDinamico('ACTÍNIO (Ac)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f2 5s2 5p6 6s2','89','227')"></td>
+          <td><img src="imgs/th.png"onclick="modalDinamico('TÓRIO (Th)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f2 6s2 6p6 7s2','90','232')"></td>
+          <td><img src="imgs/pa.png"onclick="modalDinamico('CHUMBO (Pa)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f3 6s2 6p6 7s2','91','231')"></td>
+          <td><img src="imgs/u.png" onclick="modalDinamico('URÂNIO (U)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f4 6s2 6p6 7s2','92','238')"></td>
+          <td><img src="imgs/np.png"onclick="modalDinamico('NEPTÚNIO (Np)]','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f5 6s2 6p6 7s2','93','237')"></td>
+          <td><img src="imgs/pu.png"onclick="modalDinamico('PLUTÔNIO (Pu)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f6 6s2 6p6 7s2','94','239')"></td>
+          <td><img src="imgs/am.png"onclick="modalDinamico('AMERÍCIO  (Am)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f7 6s2 6p6 7s2','95','243')"></td>
+          <td><img src="imgs/cm.png"onclick="modalDinamico('CÚRIO  (Cm)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f8 6s2 6p6 7s2','96','247')"></td>
+          <td><img src="imgs/bk.png"onclick="modalDinamico('BERQUÉLIO  (Bk)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f9 6s2 6p6 7s2','97','247')"></td>
+          <td><img src="imgs/cf.png"onclick="modalDinamico('CALIFÓRNIO  (Cf)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f10 6s2 6p6 7s2','98','251')"></td>
+          <td><img src="imgs/es.png"onclick="modalDinamico('EINSTÉNIO  (Es)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f11 6s2 6p6 7s2','99','254')"></td>
+          <td><img src="imgs/fm.png"onclick="modalDinamico('FÉRMIO (Fm)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f12 6s2 6p6 7s2','100','257')"></td>
+          <td><img src="imgs/md.png"onclick="modalDinamico('MENDELÉVIO (Md)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f13 6s2 6p6 7s2','101','256')"></td>
+          <td><img src="imgs/no.png"onclick="modalDinamico('NOBÉLIO (No)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 7s2','102','259')"></td>
+          <td><img src="imgs/lr.png"onclick="modalDinamico('LAURÊNCIO (Lr)','1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d1 7s2','103','260')"></td>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--<span>&#9773;</span>-->
+  </body>
+  <script src="js/index.js"></script>
+</html>
