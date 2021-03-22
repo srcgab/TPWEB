@@ -96,17 +96,17 @@ body {
 }
 .pcoluna{
   width: 80%;
-  margin: 10%; 
+  margin: 10%;
   position: absolute;
 }
 p{
-  font-size: 22px; 
+  font-size: 22px;
   text-align: justify;
   padding: 25px;
   margin: 0px;
 }
 h2{
-  font-size: 30px; 
+  font-size: 30px;
   text-align: justify;
   padding: 25px;
   margin: 0px;
@@ -184,10 +184,48 @@ h1{
 
   background-color: #0088cc38;
   border: 10px solid #add2a6bd;
-  
+
 }
 
 .tabFamilias ul {
   text-align: center;
- 
+
+}
+.direitaDiv{
+  float: right;
+  width: 60%;
+  text-align: justify;
+}
+
+@media (max-width: 992px){
+}
+
+@media (min-width: 993px) {
+  .divTitulo h1{
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  .divTitulo{
+    margin-left: 25%;
+  }
+  p, h2{
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    left: -5px;
+  }
+  .divTitulo h1{
+    margin-top: 40%;
+  }
+  img{
+    margin-left: 70%;
+  }
+  #tb1{
+    margin-left: 5px;
+  }
+  h1{
+    font-size: 40px;
+  }
 }
