@@ -1,0 +1,75 @@
+body {
+    color: #fff;
+}
+
+.container-alternativa {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(12, 27, 51);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.container-alternativa:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 0.6rem 0 rgb(67, 24, 87);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.prefixo-alternativa {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.alternativa {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correto {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorreto {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/*CSS do HUD*/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prefixo-hud {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main {
+    text-align: center;
+}
+
+#barra-de-progresso {
+    width: 20rem;
+    height: 3rem;
+    border: 0.5rem solid rgb(67, 24, 87);
+    margin-top: 2rem;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#barra-completa {
+    height: 100%;
+    background: rgb(67, 24, 87);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .container-alternativa {
+        min-width: 40rem;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="styleQuiz.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <!-- heads up display, como um "monitor de alertas" -->
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progresso" class="prefixo-hud">PERGUNTA</p>
+                    <div id="barra-de-progresso">
+                        <div id="barra-completa">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="prefixo-hud">PONTUAÇÃO</p>
+                    <h1 class="hud-main" id="pontuacao">000</h1>
+                </div>
+            </div>
+            <h1 id="pergunta">aqui tem uma pergunta</h1>
+            <div class="container-alternativa">
+                <p class="prefixo-alternativa">A</p>
+                <p class="alternativa" data-number="1"></p>
+            </div>
+            <div class="container-alternativa">
+                <p class="prefixo-alternativa">B</p>
+                <p class="alternativa" data-number="2"></p>
+            </div>
+            <div class="container-alternativa">
+                <p class="prefixo-alternativa">C</p>
+                <p class="alternativa" data-number="3"></p>
+            </div>
+            <div class="container-alternativa">
+                <p class="prefixo-alternativa">D</p>
+                <p class="alternativa" data-number="4"></p>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
