@@ -1,9 +1,48 @@
-p{
-  font-family:'Helvética ', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+
+:root {
+  background: linear-gradient(90deg, rgb(43, 192, 249) 0%, rgb(15, 7, 131) 100%);
 }
+
+body {
+  margin: 0px;
+}
+  
 h1{
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  text-align: center;
+  font-size: 50px;
 }
+
+h2, p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  padding: 25px;
+  margin: 0px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  font-size: 22px;
+}
+
+.divTitulo{
+  width: 50%;;
+}
+.divTitulo h1{
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+/*CSS TABELA*/
+
 table{
   margin-left: 20vh;
 }
@@ -81,44 +120,14 @@ td:hover, td:focus {
  .nada{
 opacity: 0%;
 }
-.divTitulo{
-  width: 52%;
-  background-color:#0088cc38;
-}
-.divTitulo h1{
-  text-align: center;
-  position: relative;
-  color: white;
-}
-body {
-  margin: 0px;
-  background-color: #0cff1421;
-}
 .pcoluna{
   width: 80%;
   margin: 10%;
   position: absolute;
 }
-p{
-  font-size: 22px;
-  text-align: justify;
-  padding: 25px;
-  margin: 0px;
-}
-h2{
-  font-size: 30px;
-  text-align: justify;
-  padding: 25px;
-  margin: 0px;
-}
-
-h1{
-  color: black;
-  text-align: center;
-  font-size: 50px;
-}
 
 /*CSS PROPRIEDADES*/
+
 .esquerda{
   float: left;
 }
@@ -141,7 +150,6 @@ h1{
   padding: 2%;
   text-align: justify;
 }
-
 .imgDireita{
   margin-top: 3%;
   margin-left: 5%;
@@ -150,7 +158,6 @@ h1{
   width: 40%;
   border-radius: 5%;
 }
-
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
@@ -167,6 +174,7 @@ h1{
 }
 
 /*CSS Famílias e Períodos*/
+
 .imgPeriodo{
   width: 35%;
   margin-top: 12%;
@@ -195,14 +203,16 @@ h1{
   float: right;
   width: 60%;
   text-align: justify;
-}
+} 
+
+/*responsividade*/
 
 @media (max-width: 992px){
 }
 
 @media (min-width: 993px) {
   .divTitulo h1{
-    margin-top: 40%;
+    margin-top: 20%;
   }
 }
 
@@ -217,7 +227,7 @@ h1{
     left: -5px;
   }
   .divTitulo h1{
-    margin-top: 40%;
+    margin-top: 20%;
   }
   img{
     margin-left: 70%;
