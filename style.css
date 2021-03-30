@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+
+:root {
+  background: linear-gradient(90deg, rgb(43, 192, 249) 0%, rgb(15, 7, 131) 100%);
+}
+
+body {
+  margin: 0px;
+}
+  
+h1{
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2, p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  padding: 25px;
+  margin: 0px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  font-size: 22px;
+}
+
+.divTitulo{
+  width: 50%;;
+}
+.divTitulo h1{
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+/*CSS TABELA*/
+
+table{
+  margin-left: 20vh;
+}
+#tb1{
+  padding-top: 3em;
+}
+td img {
+  width: 8vh;
+  margin: 0px;
+}
+td {
+  padding: 0px;
+  position: relative;
+  transition: transform 1s;
+  transform: translateX(0) scale(1.0);
+}
+td:hover, td:focus {
+  transform: translateY(10px) scale(0.7);
+  }
+
+#ti {
+  margin-left: 37vh;
+  margin-top: 3vh;
+  top: 2px;
+  padding-bottom: 10em;
+}
+#ti img {
+  width: 8vh;
+  margin: 0px;
+}
+
+.modal{
+  width: 35em;
+  height: 28em;
+  min-width: 300px;
+  left: 25em;
+  top: -33em;
+  position: relative;
+  background-color: #ffffff87;
+  transition-duration: 1s;
+  border: 5px solid #a8db57;
+  box-shadow: 0 0 0 6px #b5e2f2;
+}
+
+.modal h3{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: -35px;
+  right: -183px;
+  margin-left: 19em;
+  margin-right: 0em;
+  border-radius: 100%;
+  border: 3px solid #a8db56;
+  box-shadow: 0 4px 4px 0 rgb(0,0,0,0.7);
+  box-shadow: 0 0 0 3px #b5e2f2;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  cursor: pointer;
+}
+.modal p{
+  position: relative;
+  margin: 0;
+}
+.modal h1{
+  text-align: center;
+  font-size: 40px;
+}
+.escondeFundo{
+  filter: blur(1px);
+}
+ .nada{
+opacity: 0%;
+}
+.pcoluna{
+  width: 80%;
+  margin: 10%;
+  position: absolute;
+}
+
+/*CSS PROPRIEDADES*/
+
+.esquerda{
+  float: left;
+}
+.esquerda{
+  float: left;
+  width: 50%;
+  padding: 2%;
+  text-align: justify;
+}
+.imgEsquerda{
+  float: left;
+  border-radius: 5%;
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 40%;
+}
+.direita{
+  float: right;
+  width: 50%;
+  padding: 2%;
+  text-align: justify;
+}
+.imgDireita{
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+  width: 40%;
+  border-radius: 5%;
+}
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+/*CSS Famílias e Períodos*/
+
+.imgPeriodo{
+  width: 35%;
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+  border: 15px solid #add2a6bd;
+}
+.tabFamilias{
+  text-align: center;
+  float: right;
+  width: 43%;
+  margin-right: 1%;
+  margin-top: 3%;
+
+  background-color: #0088cc38;
+  border: 10px solid #add2a6bd;
+
+}
+
+.tabFamilias ul {
+  text-align: center;
+
+}
+.direitaDiv{
+  float: right;
+  width: 60%;
+  text-align: justify;
+} 
+
+/*responsividade*/
+
+@media (max-width: 992px){
+}
+
+@media (min-width: 993px) {
+  .divTitulo h1{
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .divTitulo{
+    margin-left: 25%;
+  }
+  p, h2{
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    left: -5px;
+  }
+  .divTitulo h1{
+    margin-top: 20%;
+  }
+  img{
+    margin-left: 70%;
+  }
+  #tb1{
+    margin-left: 5px;
+  }
+  h1{
+    font-size: 40px;
+  }
+}

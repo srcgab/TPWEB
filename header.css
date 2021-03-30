@@ -1,0 +1,87 @@
+/*ul {
+  display: block;
+  text-align: right;
+  margin: 0px;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+}
+#esp {
+  width: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 0px 0px 50px;
+}*/
+
+
+#menu a:hover{
+  color:#202d05;
+}
+
+.pagina:hover{
+  color:green;
+}
+.pagina:link {
+  color: black;
+}
+.pagina:active{
+  color: #00897b;
+}
+.pagina{
+  text-decoration: none;
+  color:white;
+}
+
+header{
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-color: white;
+  margin-top: 5em;
+  
+}
+
+header ul {
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+
+header li:hover {
+  border-bottom-color: currentColor;
+}
+
+#menu a{
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  font-size: 22px;
+  color: yellowgreen;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logopag{
+  max-width: 14em;
+  min-height: 100%;
+  margin: 25px;
+  float: left;
+}
+
+.containerHeader{
+  background-color: #ffffff;
+  max-width: 200vh;
+  min-height: 14em;
+  padding-top: 1em;
+}
